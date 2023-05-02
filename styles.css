@@ -1,0 +1,46 @@
+.title1{
+    text-align: left;
+    margin: 0px;
+    color: rgb(34, 22, 22);
+}
+.title{
+    color: rgb(34, 22, 22);
+}
+.c1,.c2{
+    color: rgba(246, 8, 12, 0.451);
+}
+
+#title{
+    
+    text-align: center;
+}
+
+/* [fsdf]{
+    
+}
+
+h1{
+    
+} */
+body{
+    background-image: url(img/background2.jpg);
+    background-size: cover;
+    background-repeat: round;
+}
+p{
+    font-size: small;
+    color: blanchedalmond;
+}
+.p2{
+    font-style: italic;
+}
+
+.float-left{
+    float: left;
+}
+.clear{
+    clear: both;
+}
+.d-inline{
+    display: inline-block;
+}
