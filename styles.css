@@ -2,10 +2,8 @@
     text-align: left;
     margin: 0px;
     color: rgb(34, 22, 22);
+    font-family:'Courier New', Courier, monospace;
     
-}
-h1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .title{
     color: rgb(34, 22, 22);
@@ -26,9 +24,17 @@ h1{
 h1{
     
 } */
-.row:hover{
-    color:rgb(255, 0, 0);
+.row{
+    display: inline-block;
 }
+.row a:hover{
+    color:rgb(255, 0, 0);
+    border: 5px solid red;
+    display: block;
+}
+
+
+
 body{
     background-image: url(img/background2.jpg);
     background-size: cover;
