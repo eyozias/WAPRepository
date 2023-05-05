@@ -1,3 +1,8 @@
+body {
+  min-height: 100vh;
+  padding-left: 27px;
+  padding-top: 35px;
+}
 .title1 {
   text-align: left;
   margin: 0px;
@@ -66,4 +71,7 @@ body {
 }
 .d-inline {
   display: inline-block;
+}
+footer {
+  padding-top: 55px;
 }
