@@ -1,0 +1,19 @@
+body.container {
+  width: 900px;
+  margin-left: 100px;
+  margin-top: 74px;
+}
+small.share {
+  font-weight: lighter;
+  margin-top: -17px;
+}
+div.mb-2 {
+  margin-bottom: -1px;
+}
+div {
+  margin-top: 19px;
+}
+#passwordHelpBlock.form-text {
+  margin-top: -17px;
+  font-weight: lighter;
+}

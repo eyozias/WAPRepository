@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+ul.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.container-fluid {
+  justify-content: space-between;
+}
