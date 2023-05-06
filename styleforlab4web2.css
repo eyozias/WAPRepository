@@ -1,10 +1,14 @@
-.container {
-  display: flex;
+body {
+  font-family: sans-serif !important;
 }
-ul.navbar-nav {
-  display: flex;
-  justify-content: space-between;
+
+.validators {
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
 }
-.container-fluid {
-  justify-content: space-between;
+
+.validatorBtn {
+  border: 0;
+  width: 88px;
+  height: 31px;
 }
