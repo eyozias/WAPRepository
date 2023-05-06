@@ -64,7 +64,7 @@ h4.title {
 .movie {
   display: flex;
   align-items: flex-start;
-  font-size: small;
+  font-size: smaller;
   gap: 7px;
 }
 .row-container a:hover {
