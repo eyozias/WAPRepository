@@ -17,3 +17,6 @@ div {
   margin-top: -17px;
   font-weight: lighter;
 }
+footer {
+  margin: inherit;
+}
