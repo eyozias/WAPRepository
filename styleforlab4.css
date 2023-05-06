@@ -17,6 +17,8 @@ div {
   margin-top: -17px;
   font-weight: lighter;
 }
-footer {
+footer.validator-address {
+  font-size: smaller;
   margin: inherit;
+  margin-left: 0%;
 }

@@ -12,6 +12,16 @@ p.details {
   color: black;
   margin-top: 18px;
 }
+.profile {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.Name {
+  font-weight: bold;
+}
 h4.title {
   background-color: darkslategray;
   padding-top: 15px;
@@ -98,6 +108,19 @@ ul.dropcap li::first-letter {
   font-size: 3em;
   line-height: 1;
 }
+ul.listed li a:hover {
+  text-decoration: none;
+  color: dodgerblue;
+}
 ul.listed li a {
   text-decoration: none;
+  color: darkgreen;
+}
+ul.listed li {
+  margin-bottom: 15px;
+}
+footer.validator-address {
+  font-size: smaller;
+  margin: inherit;
+  margin-left: 0%;
 }
