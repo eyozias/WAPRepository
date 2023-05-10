@@ -14,8 +14,8 @@
   <form action="./lab4webform2.html">
     <div class="mb-1">
       <label for="isSecure" class="form-label">Website</label>
-      <input type="text" class="form-control" id="isSecure" required pattern="^(http|https):\/\/"
-        title="Write address starting with http:// or https://">
+      <input type="text" class="form-control" id="isSecure" pattern="^(http|https):\/\/ [\w\d\-\_]+\.[\w\d\-\_]+$"
+        required title="Write address starting with http:// or https://">
     </div>
     <div class="mb-2">
       <label for="formGroupExampleInput" class="form-label">Email adress</label>
@@ -25,8 +25,8 @@
     <div class="mb-3">
 
       <label for="formGroupExampleInput2" class="form-label">Password</label>
-      <input type="text" name="passsword" class="form-control" id="formGroupExampleInput2" placeholder="Enter password"
-        required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}"
+      <input type="password" name="passsword" class="form-control" id="formGroupExampleInput2"
+        placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" required
         title="At least 10 characters containing a lowercase and an uppercase and a digit." />
     </div>
     <div class="box-for-check">
