@@ -18,8 +18,9 @@
         required title="Write address starting with http:// or https://">
     </div>
     <div class="mb-2">
-      <label for="formGroupExampleInput" class="form-label">Email adress</label>
-      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter email" />
+      <label for="formGroupExampleInput" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="formGroupExampleInput" placeholder="Enter email"
+        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="regular expression">
     </div>
     <small class="share">we'll never share your email with anyone else.</small>
     <div class="mb-3">
@@ -27,10 +28,10 @@
       <label for="formGroupExampleInput2" class="form-label">Password</label>
       <input type="password" name="passsword" class="form-control" id="formGroupExampleInput2"
         placeholder="Enter password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{10,}" required
-        title="At least 10 characters containing a lowercase and an uppercase and a digit." />
+        title="At least 10 characters containing a lowercase and an uppercase and a digit.">
     </div>
     <div class="box-for-check">
-      <input type="checkbox" class="box-for-check" id="rememberMe" />
+      <input type="checkbox" class="box-for-check" id="rememberMe">
       <label class="label" for="rememberMe">Check me out</label>
     </div>
     <div><a href="./lab4webform2.html">
