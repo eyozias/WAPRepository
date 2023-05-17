@@ -1,4 +1,4 @@
-body {
+/* body {
   background-color: yellow;
   color: blue;
 }
@@ -15,4 +15,18 @@ p {
 ul {
   color: purple;
   background-color: beige;
+} */
+body {
+  background-color: yellow;
+  color: magenta;
+}
+p {
+  color: orange;
+}
+.central,
+.item {
+  color: green;
+}
+#item {
+  background-color: cyan;
 }
